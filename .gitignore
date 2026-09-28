@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Airflow runtime files
+logs/
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
+
+# Secrets - never commit these
+.env
+*.pem
+*.key
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
